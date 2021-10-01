@@ -5,7 +5,7 @@ This software are used for send money in withdraw operations
 
 ## Use
 Use:
-.. code-block:: console
+        code-block:: console
     python3 send.py **value** **wallet_address**
 
 .. code-block:: console
