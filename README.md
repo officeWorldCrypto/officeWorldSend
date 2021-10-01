@@ -14,19 +14,19 @@ This resource depends only assets/abi.json and correct settings like this:
 
 ## Configurations file (.env)
 
-# DEBUG=True
+#### DEBUG=True
 If in true mode setup to use binance chain alternative testnet
 
-# TEMPLATE_DEBUG=True
+#### TEMPLATE_DEBUG=True
 Necessary only future options with debug alternative, but with DEBUG parameter like false
 
-# CONTRACT_ADDRESS
+### CONTRACT_ADDRESS
 Here is your token contract (OFF tests='0x3AF47F702a9002a4583830253b1A0b0BeAb15340')
 
-# SENDER_WALLET ='0xf954D12D577cE8373F4Bf924B3DEA71B1Db785B3'
+### SENDER_WALLET ='0xf954D12D577cE8373F4Bf924B3DEA71B1Db785B3'
 The money has get here and sended to destination
 
-# SENDER_WALLET_SECRET_KEY
+### SENDER_WALLET_SECRET_KEY
 Save your financial life, protect this information, this private_key
 get in metamask wallet for example, and this is necessary for send money
 '0000000000000000000000000000000000000000000000000000000000000000'
