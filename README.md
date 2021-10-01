@@ -3,6 +3,14 @@
 Send crypto value to another account/wallet
 This software are used for send money in withdraw operations
 
+## Install
+
+For use first install dependences
+
+    pip3 install python-decouple
+    pip3 install web3
+
+
 ## Usage
     python3 send.py **value** **wallet_address**
 
