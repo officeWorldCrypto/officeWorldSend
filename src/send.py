@@ -96,6 +96,7 @@ if isConnected:
 	print(token_tx)
 	print('Are new balance value now, waiting 10secs...')
 	print('Actual balance (destinatary)')
+	print('***Don\'t use this information for validate the transaction, use bscscan etc for this...')
 	for i in range(10):
 		time.sleep(1)
 		balanceOf = contract.functions.balanceOf(to_address).call()
