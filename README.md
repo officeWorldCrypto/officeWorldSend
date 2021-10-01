@@ -6,7 +6,7 @@ This software are used for send money in withdraw operations
 ## Usage
     python3 send.py **value** **wallet_address**
 
-        python3 send.py 700 0xf954D12D577cE8373F4Bf924B3DEA71B1Db785B3
+    python3 send.py 700 0xf954D12D577cE8373F4Bf924B3DEA71B1Db785B3
 
 Todo: For more protection, this need request a authorization for verify authenticity of operation with internal workspace block validation
 
