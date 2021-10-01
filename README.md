@@ -31,13 +31,13 @@ Save your financial life, protect this information, this private_key
 get in metamask wallet for example, and this is necessary for send money
 '0000000000000000000000000000000000000000000000000000000000000000'
 
-# MONEY_DIGITS=8
+### MONEY_DIGITS=8
 Parameters indication the digits qty has used in your token
 Warning: if you put wrong information here, yout can send 10.000 also 10
 
-# DEFAULT_TO="0x0000000000000000000000000000000000000000"
+### DEFAULT_TO="0x0000000000000000000000000000000000000000"
 A default wallet for use if wallet has no indicated
 
-# DEFAULT_MINIMAL_VALUE=1
+### DEFAULT_MINIMAL_VALUE=1
 A default value for send when run this code
 
